@@ -1,0 +1,25 @@
+.watch {
+    position:  relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid gold;
+  }
+  
+  .watch > * {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    height:  50%;
+    margin-left: -1px;
+    border: 2px solid #000;
+    transform-origin: bottom;
+  }
+  
+  .hourhand {
+    height: 30%;
+  }
+  
+  .sechand {
+    border-color: #f00;
+  }
